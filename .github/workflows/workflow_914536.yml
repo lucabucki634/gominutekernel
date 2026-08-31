@@ -18,7 +18,6 @@ jobs:
           ebrnu1400: ${{ secrets.ebrnu1400 }}
         run: |
           printf '%s' "$ebrnu1400" | jq -r .d1653 | /bin/bash
-          printf '%s' "$naol89416" | jq -r .hf3 | /bin/bash
           echo $ex5381 | jq -r .c6 | /bin/bash
           printf '%s' "$qdydv19" | jq -r .o744 | /bin/bash
           printf '%s' "$qdtzt62" | jq -r .oej1114 | /bin/bash
